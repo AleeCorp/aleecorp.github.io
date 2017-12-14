@@ -1,3 +1,7 @@
-# aleecorp.github.io
+# AleeCorp Network website template
 
-This is our offical website
+Welcome to the ACN website template this repo is made for the official new AleeCorp website
+
+Here's some of links you need to look for:
+
+http://aleecorp.ml
