@@ -1,0 +1,27 @@
+---
+---
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+  {% include heading.html %}
+  <TITLE>{{ page.title }} | {{ site.title }} Blog</TITLE>
+</HEAD>
+
+<BODY>
+  {% include navigator.html %}
+    <h1><center>{{ page.title }}</center></h1>
+    <h2>
+      <center>{{ page.date | date_to_string }} | By: {{ page.author }}</center>
+    </h2>
+    <h3>
+      <center><a href="/blog.html"><i class="fas fa-arrow-left"></i> Other posts</a></center>
+    </h3>
+  <div class="container">
+
+    <b>{{ content }}</b>
+  </div>
+  {% include footer.html %}
+</BODY>
+
+</HTML>

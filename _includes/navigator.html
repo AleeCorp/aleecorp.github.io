@@ -1,0 +1,9 @@
+<nav class="black">
+    <ul class="navbar">
+      <li class="nav logo"><a class="nav" href="/">AleeCorp</a></li>
+      <li class="nav" {% if page.url == "/" %}style="background-color: #537828;"{% endif %}><a class="nav" href="/">Home</a></li>
+      <!--<li class="nav" {% if page.url == "/history.html" %}style="background-color: #537828;"{% endif %}><a class="nav" href="/history">History</a></li>-->
+      <li class="nav" {% if page.url == "/blog.html" %}style="background-color: #537828;"{% endif %}><a class="nav" href="/blog">Blog</a></li>
+      <li class="nav" {% if page.url == "/about.html" %}style="background-color: #537828;"{% endif %}><a class="nav" href="/about">About</a></li>
+    </ul>
+</nav>

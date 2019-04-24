@@ -1,0 +1,13 @@
+  body {
+    font-family: 'Play', sans-serif,  Helvetica;
+    background: #1a1b1f;
+    color: white
+}
+
+.page-footer {
+  color: #fff;
+  background-color: #306e32;
+}
+a.footer-copyright {
+    color: #ffff;
+}

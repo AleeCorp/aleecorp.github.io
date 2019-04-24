@@ -1,34 +1,29 @@
+---
+project: AleeCorp
+---
+
 <!DOCTYPE HTML>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>AleeCorp Network | Home</title>
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
-        <header>
-            <div class="container">
-                <div id="branding">
-                    <h1>AleeCorp Network</h1>
-                </div>
-                <nav>
-                    <ul>
-                       <li class="current"><a href="#">Home</a></li>
-                       <li><a href="#">Downloads</a></li>
-                       <li><a href="/blog">Blog</a></li>
-                       <li><a href="#">About</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <div class="container">
-            <h1>Welcome to the AleeCorp Network website!</h1>
-            <p>This website is bare (because alee doesn't know what to add :P)</p>
-            <p>We are merging with Universe click <a href="https://universedevgroup.github.io">here to go to the new website.</a>
-        </div>
-        <footer>
-            <p>AleeCorp Network, Copyright &copy; 2017</p>
-        </footer>
-    </body>
-</html>
+<HTML>
+
+<HEAD>
+  {% include heading.html %}
+  <TITLE>Home | {{ site.title }}</TITLE>
+</HEAD>
+
+<BODY>
+  {% include navigator.html %}
+  <div class="jumbotron">
+    <h1><center>{{ site.title }} Homepage</center></h1>
+    <h3>
+      <center><b>{{ site.description }}</b></center>
+    </h3>
+  </div>
+  <div class="container">
+    <p>Welcome to the AleeCorp website!</p>
+    <p>Please note that we are still working on this website and things are still experimentation.</p>
+  </div>
+  {% include footing.html %}
+  {% include footer.html %}
+</BODY>
+
+</HTML>
